@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class StringRev {
     public static void main(String[] args) {
         String finalText = "";
+        @SuppressWarnings("resource")
         Scanner value = new Scanner(System.in);
         System.out.println("Enter the string value:");
         String S = value.nextLine();

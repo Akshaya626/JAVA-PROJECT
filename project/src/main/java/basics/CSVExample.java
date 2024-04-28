@@ -22,6 +22,7 @@ public class CSVExample {
         }
 
         // Ask for user input
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter name: ");
         String inputName = scanner.nextLine();

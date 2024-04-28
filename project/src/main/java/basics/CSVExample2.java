@@ -43,6 +43,7 @@ public class CSVExample2 {
         String balanceFileName = "sampleNameBalance.csv";
 
         // Ask for user input
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter name: ");
         String inputName = scanner.nextLine();

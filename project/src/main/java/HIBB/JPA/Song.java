@@ -1,48 +1,43 @@
 package HIBB.JPA;
 
+// Java Program to Illustrate Creation of Simple POJO Class
+
+// Importing required classes
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "songs")
+@Table(name = "song")
+
+// POJO class
 public class Song {
+
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Column(name = "songId")
+    private int id;
 
-    private String title;
+    @Column(name = "songName")
+    private String songName;
+
+    @Column(name = "singer")
     private String artist;
-    private String album;
 
-    // Constructors, Getters, and Setters
-    // Constructor
-    public Song() {
-    }
-
-    public Song(String title, String artist, String album) {
-        this.title = title;
-        this.artist = artist;
-        this.album = album;
-    }
-
-    // Getters and Setters
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getSongName() {
+        return songName;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setSongName(String songName) {
+        this.songName = songName;
     }
 
     public String getArtist() {
@@ -51,13 +46,5 @@ public class Song {
 
     public void setArtist(String artist) {
         this.artist = artist;
-    }
-
-    public String getAlbum() {
-        return album;
-    }
-
-    public void setAlbum(String album) {
-        this.album = album;
     }
 }
