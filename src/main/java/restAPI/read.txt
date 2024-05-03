@@ -1,0 +1,2 @@
+http://localhost:8080/welcome?name=Akki
+http://localhost:8080/concatenate/{input1}/{input2}

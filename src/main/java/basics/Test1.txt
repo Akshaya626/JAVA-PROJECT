@@ -1,0 +1,7 @@
+Alice, 100
+Bob, 100
+Charlie, 100
+David, 100
+Eva, 100
+Alice, 100
+Alice, 100
