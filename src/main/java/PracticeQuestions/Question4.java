@@ -10,6 +10,7 @@ class Question4 {
 
         x = in.nextInt();
         y = in.nextInt();
+        in.close();
 
         System.out.println("Before Swapping\nx = " + x + "\ny = " + y);
 

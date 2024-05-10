@@ -43,7 +43,6 @@ public class RemoveDuplicateKeys {
         }
     }
 
-    // Method to display the content of the Hashtable
     public static void displayHashtable(Hashtable<Integer, String> hashtable) {
         for (Map.Entry<Integer, String> entry : hashtable.entrySet()) {
             System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());

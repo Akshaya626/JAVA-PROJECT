@@ -16,11 +16,9 @@ public class RecordDatabase {
         retrieveRecord(recordDatabase, 102);
         retrieveRecord(recordDatabase, 105);
 
-        // Removing a record
         System.out.println("\nRemoving record:");
         removeRecord(recordDatabase, 103);
 
-        // Retrieving and displaying updated records
         System.out.println("\nRetrieving updated records:");
         retrieveRecord(recordDatabase, 103);
         retrieveRecord(recordDatabase, 104);

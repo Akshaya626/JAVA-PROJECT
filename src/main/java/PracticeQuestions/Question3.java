@@ -10,6 +10,7 @@ public class Question3 {
         Scanner in = new Scanner(System.in);
         x = in.nextInt();
         y = in.nextInt();
+        in.close();
         System.out.println("x=" + x + " " + "y=" + y);
         temp = x;
         x = y;

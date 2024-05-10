@@ -10,6 +10,7 @@ public class Q1 {
         ArrayList<String> myList = new ArrayList<>();
 
         Scanner scanner = new Scanner(System.in);
+        scanner.close();
 
         while (true) {
             System.out.println("\nArrayList Operations:");
