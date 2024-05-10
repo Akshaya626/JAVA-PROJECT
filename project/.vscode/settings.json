@@ -1,0 +1,8 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "src/main/java",
+        "project/src/main/java/WEB-API"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
